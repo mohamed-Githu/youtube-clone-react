@@ -1,0 +1,58 @@
+.sideBar {
+  flex: 0 1 18%;
+  font-size: 1.6rem;
+  height: calc(100vh - 5.6rem);
+  box-shadow: .1rem 0 .4rem rgba(black, .2);
+  z-index: 2;
+  position: sticky;
+  top: 5.6rem;
+
+  @media only screen and (max-width: 42.5em) {
+    flex-basis: auto;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    padding: 0 2.4rem;
+    margin: .5rem 0;
+
+    &:hover {
+      background-color: lightgray;
+      cursor: pointer;
+    }
+  }
+
+  &__icon {
+    font-size: 2.4rem !important;
+    margin-right: 2.4rem;
+    color: #606060;
+
+    @media only screen and (max-width: 42.5em) {
+      margin-right: 0;
+    }
+  }
+
+  &__title {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #030303;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    flex: 1;
+
+    @media only screen and (max-width: 42.5em) {
+      display: none;
+    }
+  }
+
+  & > hr {
+    margin: 1rem 0;
+    color: lightgray;
+    border: 0;
+    height: 1px;
+  }
+}
