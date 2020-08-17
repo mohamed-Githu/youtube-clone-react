@@ -1,3 +1,12 @@
+Simulating the youtube front page using react js.
+
+Other technologies:
+- Materil UI
+- flex-box
+- react context api for the search (no functionality)
+
+LIVE DEMO: https://youtube-clone-reactapp.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
